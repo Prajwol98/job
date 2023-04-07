@@ -7,7 +7,7 @@ if (isset($_GET['e_hash'])) {
 	$numrows = mysqli_num_rows($query);
 	if($numrows == 0){
 		header("location: _msg.php?msg=Your credentials are not matching anything in our system");
-    	exit()  ;
+    	exit();
 	}
 	$sql = "UPDATE user_account SET activated='1' WHERE e_hash='$e_hash' LIMIT 1";
     $query = mysqli_query($db_connection, $sql);
