@@ -7,7 +7,7 @@ if(isset($_GET["msg"])){
     exit();	
 }
 if($msg == "activation_failure"){
-	$message = 'Sorry, we are having trouble activating your account at this time. We will analyze this issue and get back to you via email.';
+	$message = 'Sorry we are having trouble activating your account at this time. We will analyze this issue and get back to you via email.';
 } else if($msg == "missing_GET_variables"){
 	$message = 'Unable to get some variables. Please try again';
 } else {
