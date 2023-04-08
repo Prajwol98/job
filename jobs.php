@@ -108,14 +108,23 @@ mysqli_query($db_connection, "UPDATE seeker_profile SET profile_strength='$profi
 							<div class="widget widget-nopad">
 								<div class="widget-header text-center">
 									<h3>Jobs you may be interested in </h3>
+
 								</div>
 								<div class="text-center mobile-no-show">
 									<form class="navbar-search text-center mobile-no-show"
-										style="margin-top: 0px;margin-left: 35px;">
+										style="margin-top:25px; margin-left: 50px; border">
 										<input type="text" name="qy" id="qy" onKeyUp="fy(this.value)"
 											onBlur="hideLiveJobs(this)" class="span11 text-center"
-											style="background: linear-gradient(to right, pink, skyblue 20%, yellow 75%, pink 100%);font-size: 16px;border: 0px;"
-											placeholder="Search job title or qualification or job type or keywords">
+											
+											style="background-color: #dddbdb;
+											font-size: 16px;
+											height:30px;
+											
+			
+
+
+											border: 0px;"
+											placeholder ="Search job title or qualification or job type or keywords">
 									</form>
 								</div>
 								<div class="widget-content">

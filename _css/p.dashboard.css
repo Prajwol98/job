@@ -23,11 +23,11 @@ img {vertical-align: middle;}.banner-user{padding-top: 40px;padding-bottom: 40px
 	.feedextra-mobile-no-visibility{visibility:hidden!important}
 	.owlstandby-mobile-no-display{display:none!important}
 }
-.chat {height: 300px;background-color: #59e564fc; overflow-y: auto; border-radius: 15px;}
-.chat div {margin: 10px 12px 15px;line-height: 25px; color: #543d18;}
+.chat {height: 300px;background-color: #d2e3d4fc; overflow-y: auto; border-radius: 15px;}
+.chat div {margin: 10px 12px 15px;line-height: 25px; color: #120e07;}
 .chat .party {font-weight: bolder;}
-.chat .you {color: #006699;font-weight: bolder;border: 1px solid;padding: 5px;}
-.chat .other {color: #ef091e;border: 1px solid;padding: 5px;}
+.chat .you {color: #000000;font-weight: bolder;border: 1px solid;padding: 5px;}
+.chat .other {color: #000000;border: 1px solid;padding: 5px;}
 /*.chat .text {}*/
 .busy {position: absolute;padding: 3px 0;color: #a19a9a;display: none;font-size: 11px;margin: -25px auto auto 5px;}
 .input {margin-top: 5px;}

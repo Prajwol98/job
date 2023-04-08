@@ -109,7 +109,7 @@ if($utype == "seeker"){
 <?php include_once("_ext/default_head.php");?>
 <link href="_css/p.dashboard.css" rel="stylesheet">
 </head>
-<body style="background-color: #b05fd1">
+<body style="background-color: #d4c9d9">
 <?php include_once("_ext/pageloader.php");?>
 <?php include_once("_ext/pageloader-starter.php");?>
 <?php include_once("_ext/dashboard_navbar.php");?>
@@ -118,7 +118,7 @@ if($utype == "seeker"){
   <div class="everything-everything"> <!--style="filter:blur(3px)" -->
 	<div class="subnavbar">
 	  <div class="subnavbar-inner">
-		<div class="container" style="background-color: yellow;">
+		<div class="container" style="background-color: #b5abab;">
 		  <ul class="mainnav">
 			<li class="active"><a href=""><i class="fa fa-dashboard"></i><span>Dashboard</span> </a> </li>
 			<li <?php echo $usershow;?>><a href="javascript:void(0);" onclick="profile('<?php echo $log_email;?>')"><i class="fa fa-user"></i><span>Profile</span> </a> </li>
