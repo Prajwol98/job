@@ -313,15 +313,16 @@ $sql2 = "SELECT * FROM feedback WHERE xp='b'";$bquery = mysqli_query($db_connect
 		var a = <?php echo $acount; ?>;
 		var b = <?php echo $bcount; ?>;
 		var doughnutData = [
-			{ value: b, color: "#F7464A" },
-			{ value: a, color: "#46BFBD" },
-			{ value: g, color: "#066c24 " }
+			{ value: b, color: "#F7464A", labels:"Bad"},
+			{ value: a, color: "#46BFBD", labels:"Average"},
+			{ value: g, color: "#066c24", labels:"Green"}
 		];
 		var donutchart = document.getElementById("donut-chart");
 		var donutContext = donutchart.getContext("2d");
 		donutContext.fillStyle = "black";
 		donutContext.fillRect(30,30,10,10);
-		var myDoughnut = new Chart(donutContext).Doughnut(doughnutData);		
+		var myDoughnut = new Chart(donutContext).Doughnut(doughnutData);
+		//how to add labels into the donut-chart as "Good" for green, "Average" for blue, "Bad" for red  		
 	</script>
 </body>
 

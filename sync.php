@@ -10,7 +10,6 @@ $seeker_num = mysqli_num_rows($query0);
 $sql1 = "SELECT * FROM company_profile";
 $query1 = mysqli_query($db_connection, $sql1);
 $company_num = mysqli_num_rows($query1);
-//$sql2 = "SELECT id FROM job_post";$query2 = mysqli_query($db_connection, $sql2);$jobs_num = mysqli_num_rows($query2);
 $sql3 = "SELECT id FROM job_post WHERE company_id='$log_email'";
 $query3 = mysqli_query($db_connection, $sql3);
 $jobposts_num = mysqli_num_rows($query3);

@@ -84,10 +84,11 @@ while ($rows = mysqli_fetch_assoc($result)) {
                 $varlimit++;   
             }
 
-                
+            
             }
         }
     }
 }
+//how to make a good recommendation system on the basis of highest job applied
 echo $rjobrecommendation;
 ?>
