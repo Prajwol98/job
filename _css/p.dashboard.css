@@ -1,4 +1,4 @@
-.owlphin-box{display:none;background-color:#59e564fc; height: 350px;width: 300px;position: fixed;bottom: 45px;margin-right: 5px;border-radius: 0px;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);right:0;border-radius: 15px;}
+.owlphin-box{display:none;background-color:#727272fc; height: 350px;width: 300px;position: fixed;bottom: 45px;margin-right: 5px;border-radius: 0px;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);right:0;border-radius: 15px;}
 .owlphin-box::before {content: '';display: inline-block;border-left: 7px solid transparent;border-right: 7px solid transparent;border-top: 7px solid #ccc;border-bottom-color: rgb(204, 204, 204);border-bottom-color: rgb(234, 234, 234);position: absolute;bottom: -7px;right: 22px;}
 
 .box {position: relative;border-radius: 3px;background: #d4d4d4;background-image: none;border-top: 3px solid #d2d6de;margin-bottom: 10px;width: 100%;box-shadow: 0 1px 1px rgba(0,0,0,0.1);}
