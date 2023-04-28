@@ -1,7 +1,10 @@
 <?php
 include_once("_sys/check_login_status.php");
-if ($user_ok == true) {
-	header("location:sync&" . $_SESSION['user_hash']);
+if($user_ok==true){
+	?>
+	<script>alert("h1");</script>
+	<?php
+	header("location:sync&".$_SESSION['user_hash']);
 	exit();
 }
 ?>
@@ -168,6 +171,7 @@ if (isset($_POST["email"])) {
 				ajax.onreadystatechange = function () {
 					if (ajaxReturn(ajax) == true) {
 						var ustring = ajax.responseText.split("|||");
+						alert(ustring);
 						for(var i=0;i<ustring.length;i++){
 							var string = ustring[i].split("|");
 						}
@@ -199,7 +203,9 @@ if (isset($_POST["email"])) {
 							
 						}
 						else {
+							// alert('helllo');
 							location = "login.php";
+							
 						}
 					}
 				}

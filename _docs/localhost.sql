@@ -19,6 +19,13 @@ CREATE TABLE IF NOT EXISTS user_account (
 			  UNIQUE KEY email (e_hash,id)
              );
 
+CREATE TABLE IF NOT EXISTS tblcount (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				ip varchar(22) NOT NULL,
+				login_tme INT(11) NOT NULL,
+				PRIMARY KEY (id)
+);
+
 
 CREATE TABLE IF NOT EXISTS seeker_profile (
               user_account_id INT(11) NOT NULL,
